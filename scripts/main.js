@@ -95,7 +95,7 @@ let mydeckgl = new DeckGL({
     ]
   },
   controller: true, 
-  layers: [globe, countries, render(DATA, c10, c20, c30, c40, c50)],
+layers: [globe, countries, render(DATA, 15000000, 7500000, 1500000, 750000, 150000)],
 });
 
 const range = document.getElementById("range");

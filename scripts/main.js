@@ -107,11 +107,11 @@ range.addEventListener("change", () => {
     document.getElementById('size').innerHTML = size;   
         
     if (value > 4) {
-        var c1 = Math.round(c10 / (5 * Math.abs(4 - value)));
-        var c2 = Math.round(c20 / (5 * Math.abs(4 - value)));
-        var c3 = Math.round(c30 / (5 * Math.abs(4 - value)));
-        var c4 = Math.round(c40 / (5 * Math.abs(4 - value)));
-        var c5 = Math.round(c50 / (5 * Math.abs(4 - value)));
+        var c1 = Math.round(c10 / (5 * Math.abs(4 - 2 * value)));
+        var c2 = Math.round(c20 / (5 * Math.abs(4 - 2 * value)));
+        var c3 = Math.round(c30 / (5 * Math.abs(4 - 2 * value)));
+        var c4 = Math.round(c40 / (5 * Math.abs(4 - 2 * value)));
+        var c5 = Math.round(c50 / (5 * Math.abs(4 - 2 * value)));
     } else {
         var c1 = c10 * (5 * (4 - value));
         var c2 = c20 * (5 * (4 - value));

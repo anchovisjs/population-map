@@ -1,6 +1,6 @@
       
 var {DeckGL, GeoJsonLayer, HexagonLayer, _GlobeView, SimpleMeshLayer, H3ClusterLayer} = deck;
-var DATA = './data/pop_points_res1.csv';
+var DATA = './data/pop_points_res1.csv'; 
 var c10 = 1000000; 
 var c20 = 500000;
 var c30 = 100000; 

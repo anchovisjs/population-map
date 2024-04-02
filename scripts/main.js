@@ -64,7 +64,7 @@ let globe = new deck.SimpleMeshLayer({
     mesh: new luma.SphereGeometry({radius: EARTH_RADIUS_METERS, nlat: 18, nlong: 36}),
     coordinateSystem: deck.COORDINATE_SYSTEM.CARTESIAN,
     getPosition: [0, 0, 0],
-    getColor: [0, 0, 0]
+    getColor: [0, 49, 82]
   });
 
 let countries = new deck.GeoJsonLayer({
@@ -73,7 +73,7 @@ let countries = new deck.GeoJsonLayer({
     stroked: false,
     filled: true,
     opacity: 0.3,
-    getFillColor: [30, 80, 120]
+    getFillColor: [71, 72, 74]
   });
 
 let mydeckgl = new DeckGL({

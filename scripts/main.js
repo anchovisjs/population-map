@@ -81,7 +81,7 @@ let mydeckgl = new DeckGL({
   initialViewState: {
     longitude: 55,
     latitude: 37,
-    zoom: 2,
+    zoom: 0,
   },
   mapStyle: {
     version: 8,

@@ -38,6 +38,12 @@ function getcolor (d, c1, c2, c3, c4, c5) {
   };
 };
 
+function getval (d) {
+    var ctr = document.getElementById("counter")
+    ctr.innerHTML = Math.round(Number(d.count), 2)  ;
+    return Number(d.count)
+};
+
 function render (DATA, c1, c2, c3, c4, c5) {
   return new deck.H3HexagonLayer({
       id: 'H3HexagonLayer',
@@ -51,9 +57,9 @@ function render (DATA, c1, c2, c3, c4, c5) {
       getLineWidth: 1,
       stroked: true,
       wireframe: false,
-
       opacity: 1,
       pickable: true,
+      onClick: d => console.log(getval(d.object)),
     }); 
   
 };

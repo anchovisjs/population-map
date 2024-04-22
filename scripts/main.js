@@ -136,12 +136,12 @@ range.addEventListener("change", () => {
         var c5 = c50;
     };
         
-    document.getElementById('c1').innerHTML = ' > ' + String(c1) + ' people per cell';  
-    document.getElementById('c2').innerHTML = ' > ' + String(c2) + ' people per cell';  
-    document.getElementById('c3').innerHTML = ' > ' + String(c3) + ' people per cell';  
-    document.getElementById('c4').innerHTML = ' > ' + String(c4) + ' people per cell';  
-    document.getElementById('c5').innerHTML = ' > ' + String(c5) + ' people per cell';  
-    document.getElementById('c6').innerHTML = ' < ' + String(c5) + ' people per cell';  
+        document.getElementById('c1').innerHTML = ' >' + String(c1) + ' человек на ячейку';  
+        document.getElementById('c2').innerHTML = ' >' + String(c2) + ' человек на ячейку';  
+        document.getElementById('c3').innerHTML = ' >' + String(c3) + ' человек на ячейку';  
+        document.getElementById('c4').innerHTML = ' >' + String(c4) + ' человек на ячейку';  
+        document.getElementById('c5').innerHTML = ' >' + String(c5) + ' человек на ячейку';  
+        document.getElementById('c6').innerHTML = ' < ' + String(c5) + ' человек на ячейку';  
         
     DATA = './data/pop_points_res'+ String(value) + '.csv';
     mydeckgl.setProps({ 
@@ -175,9 +175,9 @@ document.getElementById("play").addEventListener("click", play);
 document.getElementById("pause").addEventListener("click", () => pause = true);
 
 document.getElementById('size').innerHTML = 484;   
-document.getElementById('c1').innerHTML = ' > 15000000 people per cell';  
-document.getElementById('c2').innerHTML = ' > 7500000 people per cell';  
-document.getElementById('c3').innerHTML = ' > 1500000 people per cell';  
-document.getElementById('c4').innerHTML = ' > 750000 people per cell';  
-document.getElementById('c5').innerHTML = ' > 150000 people per cell';  
-document.getElementById('c6').innerHTML = ' < 150000 people per cell';  
+document.getElementById('c1').innerHTML = ' > 15000000 человек на ячейку';  
+document.getElementById('c2').innerHTML = ' > 7500000 человек на ячейку';  
+document.getElementById('c3').innerHTML = ' > 1500000 человек на ячейку';  
+document.getElementById('c4').innerHTML = ' > 750000 человек на ячейку';  
+document.getElementById('c5').innerHTML = ' > 150000 человек на ячейку';  
+document.getElementById('c6').innerHTML = ' < 150000 человек на ячейку';  

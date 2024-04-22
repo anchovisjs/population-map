@@ -60,6 +60,8 @@ function render (DATA, c1, c2, c3, c4, c5) {
       opacity: 1,
       pickable: true,
       onClick: d => console.log(getval(d.object)),
+      autoHighlight: true,
+      highlightColor: [255, 218, 112],
     }); 
   
 };

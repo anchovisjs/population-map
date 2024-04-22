@@ -110,6 +110,7 @@ const range = document.getElementById("range");
 
 range.addEventListener("change", () => {
     const val = parseInt(range.value);
+    document.getElementById("rangetext").innerText = val;
     var value = Number(val);
     var size =  Math.round(Math.sqrt((2 * Math.round(h3.getHexagonAreaAvg(value, 'km2'), 1)) / (3 * Math.sqrt(3))), 1);
     document.getElementById('size').innerHTML = size;   

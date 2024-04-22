@@ -176,6 +176,7 @@ document.getElementById("play").addEventListener("click", play);
 document.getElementById("pause").addEventListener("click", () => pause = true);
 
 document.getElementById('size').innerHTML = 484;   
+document.getElementById("rangetext").innerText = 1;
 document.getElementById('c1').innerHTML = ' > 15000000 человек на ячейку';  
 document.getElementById('c2').innerHTML = ' > 7500000 человек на ячейку';  
 document.getElementById('c3').innerHTML = ' > 1500000 человек на ячейку';  

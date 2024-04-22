@@ -73,12 +73,12 @@
   <body>
     <div id = "control-panel">
       <div class='my-legend'>
-        <div class='legend-title'>Population density map</div>  
+        <div class='legend-title'>Плотность населения</div>  
         <div>
           <div id="monthrange">
-            <button id="play" class="button button4">Start</button>
-            <button id="pause" class="button button4">Pause</button>
-            <input id="range" type="range" name="year" min="1" max="5" value="1" step="1" list="steps"/>
+            <button id="play" class="button button4">начало</button>
+            <button id="pause" class="button button4">пауза</button>
+            <input id="range" type="range" name="year" min="1" max="6" value="1" step="1" list="steps"/>
             <datalist id="steps">
               <option value="1"></option>
               <option value="2"></option>
@@ -97,22 +97,20 @@
             <li><span style='background:#52B69A;'></span><p1 id = 'c4'> </p1> </span></li>
             <li><span style='background:#34A0A4;'></span><p1 id = 'c5'> </p1></span></li>
             <li><span style='background:#168AAD;'></span><p1 id = 'c6'> </p1></span> </li>
-
-            <span style="color: rgb(176, 197, 209); font-size: 50px;">&#x2B22;
-              <span style="font-size: 21px; display: inline; 
+            <span class="container" style="color: rgb(176, 197, 209); font-size: 50px;">&#x2B22;
+              <span style="font-size: 22px; display: inline; 
                       color: mintcream; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> 
-                    <li> edge length </li>
-                    <li>in kilometers</li> 
-                    <li id = "size"> </li>
+                    <li> длина ребра </li>
+                    <li>ячейки в км:</li> 
+                    <li id = "size"> </li>  
                  </span>
+                </span>
+                <p>
+            <span style="font-size: 22px; display: inline; 
+                color: mintcream; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> 
+              <li style="font-size: 18px;">человек на выбранную ячейку: </li>
+              <li><div id="counter">0</div></li>
             </span>
-            <p>
-              <span style="font-size: 21px; display: inline; 
-                  color: mintcream; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;"> 
-                <li> People per selected cell </li>
-                <li><div id="counter">0</div></li>
-              </span>
-            </p>
           </ul>
         </div>     
         <style type='text/css'>

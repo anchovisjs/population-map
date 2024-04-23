@@ -137,12 +137,12 @@ range.addEventListener("change", () => {
         var c5 = c50;
     };
         
-        document.getElementById('c1').innerHTML = ' > ' + String(c1) + ' человек на ячейку';  
-        document.getElementById('c2').innerHTML = ' > ' + String(c2) + ' человек на ячейку';  
-        document.getElementById('c3').innerHTML = ' > ' + String(c3) + ' человек на ячейку';  
-        document.getElementById('c4').innerHTML = ' > ' + String(c4) + ' человек на ячейку';  
-        document.getElementById('c5').innerHTML = ' > ' + String(c5) + ' человек на ячейку';  
-        document.getElementById('c6').innerHTML = ' < ' + String(c5) + ' человек на ячейку';  
+        document.getElementById('c1').innerHTML = ' > ' + String(c1) + ' человек';  
+        document.getElementById('c2').innerHTML = ' > ' + String(c2) + ' человек';  
+        document.getElementById('c3').innerHTML = ' > ' + String(c3) + ' человек';  
+        document.getElementById('c4').innerHTML = ' > ' + String(c4) + ' человек';  
+        document.getElementById('c5').innerHTML = ' > ' + String(c5) + ' человек';  
+        document.getElementById('c6').innerHTML = ' < ' + String(c5) + ' человек';  
         
     DATA = './data/pop_points_res'+ String(value) + '.csv';
     mydeckgl.setProps({ 
@@ -177,9 +177,9 @@ document.getElementById("pause").addEventListener("click", () => pause = true);
 
 document.getElementById('size').innerHTML = 484;   
 document.getElementById("rangetext").innerText = 1;
-document.getElementById('c1').innerHTML = ' > 15000000 человек на ячейку';  
-document.getElementById('c2').innerHTML = ' > 7500000 человек на ячейку';  
-document.getElementById('c3').innerHTML = ' > 1500000 человек на ячейку';  
-document.getElementById('c4').innerHTML = ' > 750000 человек на ячейку';  
-document.getElementById('c5').innerHTML = ' > 150000 человек на ячейку';  
-document.getElementById('c6').innerHTML = ' < 150000 человек на ячейку';  
+document.getElementById('c1').innerHTML = ' > 15000000 человек';  
+document.getElementById('c2').innerHTML = ' > 7500000 человек';  
+document.getElementById('c3').innerHTML = ' > 1500000 человек';  
+document.getElementById('c4').innerHTML = ' > 750000 человек';  
+document.getElementById('c5').innerHTML = ' > 150000 человек';  
+document.getElementById('c6').innerHTML = ' < 150000 человек';  

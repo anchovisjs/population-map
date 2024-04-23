@@ -137,11 +137,11 @@ range.addEventListener("change", () => {
         var c5 = c50;
     };
         
-        document.getElementById('c1').innerHTML = ' >' + String(c1) + ' человек на ячейку';  
-        document.getElementById('c2').innerHTML = ' >' + String(c2) + ' человек на ячейку';  
-        document.getElementById('c3').innerHTML = ' >' + String(c3) + ' человек на ячейку';  
-        document.getElementById('c4').innerHTML = ' >' + String(c4) + ' человек на ячейку';  
-        document.getElementById('c5').innerHTML = ' >' + String(c5) + ' человек на ячейку';  
+        document.getElementById('c1').innerHTML = ' > ' + String(c1) + ' человек на ячейку';  
+        document.getElementById('c2').innerHTML = ' > ' + String(c2) + ' человек на ячейку';  
+        document.getElementById('c3').innerHTML = ' > ' + String(c3) + ' человек на ячейку';  
+        document.getElementById('c4').innerHTML = ' > ' + String(c4) + ' человек на ячейку';  
+        document.getElementById('c5').innerHTML = ' > ' + String(c5) + ' человек на ячейку';  
         document.getElementById('c6').innerHTML = ' < ' + String(c5) + ' человек на ячейку';  
         
     DATA = './data/pop_points_res'+ String(value) + '.csv';
